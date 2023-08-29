@@ -4,8 +4,8 @@
  
 >
 >#
->>#| Name |                   Version     |             | Build  Channel|
->>
+>># Name                    Version                  Build  Channel
+>>.....
 _libgcc_mutex             0.1                 conda_forge    conda-forge
 
 _openmp_mutex             4.5                       2_gnu    conda-forge
