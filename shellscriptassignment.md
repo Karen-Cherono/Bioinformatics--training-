@@ -48,3 +48,14 @@
 | -rw-r--r-- 1 |karencherono karencherono |      323 Aug 16 15:21| 4sequences.fasta|
 | drwxr-xr-x 1 |karencherono karencherono |     4096 Aug 15 16:10| BLUE-STATE-STATION|
 
+
+> # Using * and ? wildcard in the same sentence.
+>
+>First i navigated to the directory alkanes then i used the command `ls ????ane.*` to list any file with four characters before *ane* and with any extension.
+> 
+>  (base) karencherono@DESKTOP-OE8D2M1:~/shell-lesson-data/exercise-data/alkanes$ ls ????ane.*
+
+> methane.pdb  
+> pentane.pdb  
+> propane.pdb
+
