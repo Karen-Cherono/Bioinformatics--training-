@@ -1,5 +1,8 @@
->#USING `LS` COMMAND WITH DIFFERENT FLAGS
->## `ls -l`
+# ASSIGNMENTS
+
+> ## USING `LS` COMMAND WITH DIFFERENT FLAGS
+> 
+>### `ls -l`
 >
 >This will give you more details about your files.
 >
@@ -195,9 +198,9 @@ done`
 >
 >         # Print the value
 >
->         echo "Iteration no $a"
+>         echo "Iteration no $a"`
 >
-> done`
+> `done`
 > 
 Iteration no 1
 
@@ -220,13 +223,13 @@ Iteration no 10
 
 > # Write a for loop that echoes numbers 0 to 9
 >
->  `for a in {0..9}
+>  `for a in {0..9}`
 > 
-> do
+> `do`
 > 
-> echo "Iteration no $a"
+> `echo "Iteration no $a"`
 > 
-> done`
+> `done`
 > 
 Iteration no 0
 
@@ -247,3 +250,65 @@ Iteration no 7
 Iteration no 8
 
 Iteration no 9
+
+
+> # `Cd` to the directory /exercise-data/writing
+Create a for loop that you will use on the LittleWomen.txt
+The loop should count the names "Jo" , "Meg", "Beth", "Amy"
+And prints the output on the screen
+>
+> `for a in Jo Meg Beth Amy`
+>
+> `do`
+>
+> `echo $a`
+>
+> `cat LittleWomen.txt | grep $a | wc -l`
+>
+> `done`
+>
+Jo
+1528
+
+Meg
+685
+
+Beth
+463
+
+Amy
+643
+
+>
+
+>
+> # Download the following data into a directory called firstdir data2
+>
+>Unzip the folder
+
+>Rename the file 829-0.txt to gulliver.txt
+>
+> `wget https://librarycarpentry.org/lc-shell/data/shell-lesson.zip` I used this command to download the data.
+>`mkdir firstdir` created the firstdir directory.
+>`mv shell-lesson.zip  firstdir` moved the data to firstdir.
+>`unzip shell-lesson.zip` unziped the data for access.
+>` mv 829-0.txt gulliver.txt` renamed the file 829-0.txt to gulliver.txt .
+
+>
+>
+> # Use the sed command in a for loop to remove the following lines in the file diary.html
+>
+ > # 1 to 221
+>
+ > # 265 to 330
+>
+> # Save the ouptput in a file called diary_no_header-no_footnote.txt
+
+>
+> `for a in '1,221d' '265,330d'`
+>
+> `do`
+>
+> `sed $a diary.html > diary_no_header-no_footnote.txt`
+>
+> `done`
