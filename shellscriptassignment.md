@@ -58,4 +58,100 @@
 > methane.pdb  
 > pentane.pdb  
 > propane.pdb
+>
+> # Use the wc -m and -w to get the total number of charchers and words and save the output in the file lengthsF.txt(the one you had creatd above)
+>
+> `wc -m *.pdb`
+> 
+1158 cubane.pdb
+
+ 622 ethane.pdb
+ 
+ 422 methane.pdb
+ 
+1828 octane.pdb
+
+1226 pentane.pdb
+
+ 825 propane.pdb
+ 
+6081 total
+
+> `wc -w *.pdb`
+> 
+ 156 cubane.pdb
+ 
+  84 ethane.pdb
+  
+  57 methane.pdb
+  
+ 246 octane.pdb
+ 
+ 165 pentane.pdb
+ 
+ 111 propane.pdb
+ 
+ 819 total
+
+ > # Use the -r flag to sort you file in reverse order and then use the -c to check if the file is sorted
+>
+>  `sort -r lengthsF.txt`
+> 
+  |107| total|
+  |----|------|
+  |30 |octane.pdb|
+  |21 |pentane.pdb|
+  |20 |cubane.pdb|
+  |15 |propane.pdb|
+  |12 |ethane.pdb|
+  |9 |methane.pdb|
+
+  > # `sort -c lengthsF.txt`
+> 
+sort: lengthsF.txt:2: disorder:   12 ethane.pdb
+
+> # Use the word count command on the .pdb files to count the lines, then pipe you output to the sort command based on the numerical order and then pipe this into the head command to give you the first 3 rows/records and save it in a file called my_sortedOut.txt
+>
+>  `wc -l *.pdb | sort -n | head -3`
+> 
+   9 methane.pdb
+   
+  12 ethane.pdb
+  
+  15 propane.pdb
+
+  > # Using the `cut` command cut only the year in cat animals.csv file i.e
+>  `cat animals.csv`
+> 
+2012-11-05,deer,5
+
+2012-11-05,rabbit,22
+
+2012-11-05,raccoon,7
+
+2012-11-06,rabbit,19
+
+2012-11-06,deer,2
+
+2012-11-06,fox,4
+
+2012-11-07,rabbit,16
+
+2012-11-07,bear,1
+
+> 
+> `cut -d "-" -f 1 animals.csv`
+> 
+2012
+2012
+
+2012
+2012
+
+2012
+2012
+
+2012
+2012
+
 
