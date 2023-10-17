@@ -1,4 +1,4 @@
-># **Principle of nanopore sequensing and illumina sequencing**
+># **Principle of nanopore sequencing and illumina sequencing**
 >
 >Nanopore sequencing is a technology that enables real-time analysis of long DNA or RNA fragments. It works by monitoring changes to an electrical current as nucleic acids are passed through a protein nanopore.The nitrogenous bases i.e thymine, adenine,guanine and cytosine distrupts the electrical current at different intensities The resulting signal is decoded to provide the specific DNA or RNA sequence.
 >
