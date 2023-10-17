@@ -1,4 +1,9 @@
-# **Generate a fastqc report from the downloaded file, assemble the genome and visualize using bandage.**
+># **Principle of nanopore sequensing and illumina sequensing**
+>
+>Nanopore sequencing is a technology that enables real-time analysis of long DNA or RNA fragments. It works by monitoring changes to an electrical current as nucleic acids are passed through a protein nanopore.The nitrogenous bases i.e thymine, adenine,guanine and cytosine distrupts the electrical current at different intensities The resulting signal is decoded to provide the specific DNA or RNA sequence.
+>
+>Illumina NGS technology uses the method sequencing by synthesis (SBS) technology – tracking the addition of labeled nucleotides as the DNA chain is copied. As DNA polymerase adds marked DNA nucleotides to the chain the specific bases will be used to get the sequence.
+># **Generate a fastqc report from the downloaded file, assemble the genome and visualize using bandage.**
 
 > I downloaded the file **SRR26270940.fastq.gz** an *E.coli* genome then i used the command  `gunzip SRR26270940.fastq.gz` in order to access the file. The command decompresses a file.
 > I then checked the contents of the directory to confirm wether the decompressed file exists i.e `ls` and the file **SRR26270940.fastq** now without the suffix gz was created.
