@@ -38,3 +38,6 @@
 > Scaffolds are chained contigs, one scaffold should idearlly represent chromosomal DNA without any missing sequence information or gaps.
 >
 > N 50 is the sequence length of the shortest contig at 50% of total assembly length.
+>
+> # **Structure of the DNA**
+> [DNA structure](https://www.google.com/url?sa=i&url=https%3A%2F%2Fkids.britannica.com%2Fstudents%2Farticle%2FDNA%2F398123&psig=AOvVaw0z1vOpfuHCZd2LvTpSo6Bk&ust=1697635451262000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDK4oKX_YEDFQAAAAAdAAAAABAR)
