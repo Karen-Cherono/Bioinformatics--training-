@@ -27,7 +27,7 @@
 >
 > Then i navigated to the environment where i installed flye i.e `conda activate flye`. Flye is a tool used to assemble long reads normally sequences from nanopore sequencing. I then used the command `flye --nano-raw SRR26270940.fastq -o SRR24415235.fasta` to assemble the genome. To confirm assembly I listed the contents of the directory and **SRR24415235.fasta** directory was created.
 >
-> To visualize my assembly I used the tool Bandage which is a tool for visualizing de novo assemblies. You can zoom into specific areas of the graph and interact with it by moving nodes, adding labels,changing colors and extracting sequences. I used the windows version that i downloaded from github and uploaded my file i.e **assembly_graph.gfa** from the **SRR24415235.fasta** directory. You can find the visualized image ![here](https://github.com/Karen-Cherono/Bioinformatics--training-/blob/main/graph.png)
+> To visualize my assembly I used the tool Bandage which is a tool for visualizing de novo assemblies. You can zoom into specific areas of the graph and interact with it by moving nodes, adding labels,changing colors and extracting sequences. I used the windows version that i downloaded from github and uploaded my file i.e **assembly_graph.gfa** from the **SRR24415235.fasta** directory. You can find the visualized image [here](https://github.com/Karen-Cherono/Bioinformatics--training-/blob/main/graph.png)
 >
 >
 > # **Reads, contigs, scaffolds and N 50**
